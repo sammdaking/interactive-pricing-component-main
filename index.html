@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="samo.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-header">
+        <h2>Simple, traffic-based pricing</h2>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+
+      <div class="wrapper">
+        <div class="top-container">
+          <p><span id="pageview">10K</span>Pageviews</p>
+          <p id="salary"><span id="dolar">$12.00 </span>/month</p>
+        </div>
+        <div class="div-slider">
+          <input
+            type="range"
+            class="custom-range"
+            min="1"
+            max="5"
+            value="2"
+            id="range"
+            
+          />
+        </div>
+        <div class="mid-content">
+          <p>Monthly Billing</p>
+
+          <div class="toggle-button">
+              <input type="checkbox" name="check" id="check"  />
+                <label for="check" class="toggle"></label>
+
+          </div>
+
+          <!-- <label class="switch">
+            <input type="checkbox" name="biding" id="biding" />
+            <span class="toggle-slider">s</span>
+          </label> -->
+
+          <p>Year Billing</p>
+          <div class="discount">
+            <span id="discount">25% discount</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="bottom-container light-font ">
+          <div class="bottom-left">
+            <div class="bottom-left-combo">
+              <img src="images/icon-check.svg" alt="tik" />
+              <p id="margin-left">Unlimited websites</p>
+            </div>
+            <div class="bottom-left-combo">
+              <img src="images/icon-check.svg" alt="tik" /> <p id="margin-left">100% data ownership</p>
+            </div class="bottom-left-combo">
+            <div class="bottom-left-combo">
+              <img src="images/icon-check.svg" alt="tik" /> <p id="margin-left">Email reports</p>
+            </div class="bottom-left-combo">
+          </div>
+
+          <button id="button">Start my trial</button>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by <a href="#">Sammdaking</a>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
